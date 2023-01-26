@@ -1,0 +1,16 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Akilan",
+      "location": "bangalore",
+      "designation": "Lead DevOps engineer"
+    },
+    {
+      "name": "Jegan",
+      "location": "Chennai",
+      "designation": "Network Engineer",
+      "id": 2
+    }
+  ]
+}
