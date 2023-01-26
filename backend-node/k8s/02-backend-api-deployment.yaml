@@ -18,3 +18,9 @@ spec:
       containers:
         - image: akilan/backend-node:v1
           name: backend-node
+          env:
+            - name: SECRET_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: db-secret
+                  key: DB_PASSWORD
