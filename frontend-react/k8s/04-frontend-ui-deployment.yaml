@@ -16,5 +16,5 @@ spec:
         app: frontend-ui
     spec:
       containers:
-        - image: akilan/frontend-react:v2
+        - image: akilan/frontend-react:v1
           name: frontend-react
