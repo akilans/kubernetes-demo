@@ -6,7 +6,7 @@ metadata:
   name: frontend-ui
   namespace: intellipaat
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: frontend-ui
@@ -16,5 +16,5 @@ spec:
         app: frontend-ui
     spec:
       containers:
-        - image: akilan/frontend-react:v1
+        - image: akilan/frontend-react:v2
           name: frontend-react
