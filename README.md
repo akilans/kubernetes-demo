@@ -3,6 +3,7 @@
 ### Commands
 
 ```bash
+docker image build -t akilan/backend-node:v1 .
 docker image build -t akilan/frontend-react:v1 .
 
 kubectl create namespace argocd
